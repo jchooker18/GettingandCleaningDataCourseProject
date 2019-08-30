@@ -15,7 +15,7 @@ Consolidating the data:
     1. Column bind all "test" tables into a single data frame.
     2. Repeat step 1 for all "train" tables.
     3. Row bind the "test" and "train" data frames into "alldata" data frame.
-    4. Extract only Mean and Standard Deviation measurements (excluding MeanFrequency) from
+    4. Using dplyr, extract only Mean and Standard Deviation measurements (excluding MeanFrequency) from
     "alldata" and store in "alldata_meanstd".
 
 Creating tidy data sets:
